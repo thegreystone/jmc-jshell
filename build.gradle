@@ -1,7 +1,7 @@
 plugins {
 	id 'java'
 	id 'maven'
-	id 'net.java.openjdk.shinyafox.jshell.gradle.plugin' version '1.0.4'
+	id "net.java.openjdk.shinyafox.jshell.gradle.plugin" version "1.0.4"
 }
 
 repositories {
@@ -10,8 +10,8 @@ repositories {
 }
 
 dependencies {
-	implementation "org.openjdk.jmc:common:7.0.0-SNAPSHOT"
-	implementation "org.openjdk.jmc:flightrecorder:7.0.0-SNAPSHOT"
-	implementation "org.openjdk.jmc:flightrecorder.rules:7.0.0-SNAPSHOT"
-	implementation "org.openjdk.jmc:flightrecorder.rules.jdk:7.0.0-SNAPSHOT"
+	compile "org.openjdk.jmc:common:7.0.0-SNAPSHOT"
+	compile "org.openjdk.jmc:flightrecorder:7.0.0-SNAPSHOT"
+	compile "org.openjdk.jmc:flightrecorder.rules:7.0.0-SNAPSHOT"
+	compile "org.openjdk.jmc:flightrecorder.rules.jdk:7.0.0-SNAPSHOT"
 }
