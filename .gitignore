@@ -30,3 +30,6 @@ bin/
 
 # Gradle
 .gradle/
+
+# Build
+build/
