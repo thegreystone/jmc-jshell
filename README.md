@@ -26,7 +26,7 @@ At the prompt run the following to set up some imports:
 
 Now you are ready to play around with the JMC core APIs.
 
-##Example
+## Example
 
 Here is an example of a session calculating the standard deviation for the java monitor enter events in the example recording:
 
