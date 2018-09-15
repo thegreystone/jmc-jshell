@@ -44,7 +44,7 @@ jshell> stddev.displayUsing(IDisplayable.AUTO)
 $9 ==> "2,113 s"
 ```
 
-Here is another example, executing the available rules against the example recording:
+Here is another example, evaluating the available rules against the example recording:
 
 ```
 jshell> JfrRulesReport.printReport("text", Severity.INFO, true, false, "latency.jfr")
