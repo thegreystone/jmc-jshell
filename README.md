@@ -42,6 +42,10 @@ stddev ==> 2.11292968454666E9ticks[ticks]
 
 jshell> stddev.displayUsing(IDisplayable.AUTO)
 $9 ==> "2,113 s"
+
+jshell> stddev.in(UnitLookup.TIMESPAN.getUnit(PICO))
+$10 ==> 2.1129296845466602E12ps[ps]
+
 ```
 
 Here is another example, evaluating the available rules against the example recording:
