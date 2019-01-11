@@ -1,6 +1,8 @@
 # jmc-jshell
 Easy way to get started experimenting with the JDK Flight Recorder and the JMC core classes.
 
+Note that until JMC 7.0.0 has been published on Maven Central, you will need to download, build and install JMC core. See https://github.com/JDKMissionControl/jmc for more information.
+
 First ensure that you are running with a JDK 9 or later. Then run:
 
 ```bash
