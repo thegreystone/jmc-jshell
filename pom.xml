@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Copyright (C) 2018 Marcus Hirt
-                     www.hirt.se
+  Copyright (C) 2018-2021, Marcus Hirt
 
   This software is free:
 
@@ -28,7 +27,7 @@
   (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
   THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   
-  Copyright (C) Marcus Hirt, 2018
+  Copyright (C) Marcus Hirt, 2018-2021
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -37,27 +36,14 @@
 	<groupId>se.hirt.examples</groupId>
 	<artifactId>jmc-jshell</artifactId>
 	<name>Running JMC core with JShell</name>
-	<version>0.1.0</version>
+	<version>0.1.1</version>
 	
-	<repositories>
-		<repository>
-			<id>adopt</id>
-			<name>AdoptOpenJDK</name>
-			<url>https://adoptopenjdk.jfrog.io/adoptopenjdk/jmc-libs</url>
-			<layout>default</layout>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-
-	</repositories>
-
 	<properties>
-		<jmc.version>8.0.0</jmc.version>
+		<jmc.version>8.0.1</jmc.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<maven.compiler.source>1.8</maven.compiler.source>
-		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>11</maven.compiler.target>
 	</properties>
 	<dependencies>
 		<dependency>
