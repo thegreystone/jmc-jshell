@@ -5,6 +5,7 @@ import org.openjdk.jmc.common.item.*;
 import org.openjdk.jmc.common.unit.*;
 import org.openjdk.jmc.flightrecorder.rules.*;
 import org.openjdk.jmc.flightrecorder.rules.report.*;
+import org.openjdk.jmc.flightrecorder.rules.report.html.*;
 import static org.openjdk.jmc.common.unit.BinaryPrefix.NOBI;
 import static org.openjdk.jmc.common.unit.BinaryPrefix.KIBI;
 import static org.openjdk.jmc.common.unit.BinaryPrefix.MEBI;
