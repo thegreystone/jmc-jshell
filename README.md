@@ -1,7 +1,7 @@
 # jmc-jshell
 Easy way to get started experimenting with the JDK Flight Recorder and the JMC core classes.
 
-First ensure that you are running with a JDK 9 or later. Then run:
+First ensure that you are running with a JDK 17 or later. Then run:
 
 ```bash
 mvn compile
@@ -12,7 +12,7 @@ You should now be presented with a jshell command line.
 
 ```
 
-|  Welcome to JShell -- Version 11
+|  Welcome to JShell
 |  For an introduction type: /help intro
 
 jshell>
@@ -73,4 +73,10 @@ Severity: Information
 Score: 41
 Message: 294 processes were running while this Flight Recording was made.
 Detailed message: At 2018-08-24, 06:47:37, a total of 294 other processes were running on the host machine that this Flight Recording was made on. If this is a server environment, it may be good to only run other critical processes on that machine.
+```
+
+And, finally, here is an example on how to write out an html report to a file:
+
+```
+Files.write(Paths.get("latency-report.html"), JfrHtmlRulesReport.createReport(new File("latency.jfr")).getBytes())
 ```
