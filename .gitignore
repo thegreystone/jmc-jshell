@@ -34,3 +34,6 @@ bin/
 # Build
 build/
 /target/
+
+# Html files (typically generated when following the readme)
+*.html
